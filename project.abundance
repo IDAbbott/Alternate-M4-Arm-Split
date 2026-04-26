@@ -10195,8 +10195,8 @@
         },
         {
           "atomType": "Fusion",
-          "x": 0.5308219178082192,
-          "y": 0.751219512195122,
+          "x": 0.5368150684931506,
+          "y": 0.7609756097560976,
           "uniqueID": "f9a11159-9bd9-448b-b687-28eec69b2c9c",
           "ioValues": [
             {
@@ -11493,7 +11493,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-extrude-polysides-35-25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-68-0-0",
+                "geometry": "move-extrude-polysides-35-25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-68-0-0",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -12059,8 +12059,8 @@
             },
             {
               "atomType": "Extrude",
-              "x": 0.4218608852755194,
-              "y": 0.4951219512195122,
+              "x": 0.4220890410958904,
+              "y": 0.5073170731707317,
               "uniqueID": 1749544086624,
               "ioValues": [
                 {
@@ -12069,7 +12069,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 4
+                  "ioValue": 5
                 }
               ]
             }
@@ -15464,8 +15464,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.1446917808219178,
-          "y": 0.7,
+          "x": 0.11472602739726027,
+          "y": 0.7365853658536585,
           "uniqueID": 1749502519967,
           "name": "MotorHoles",
           "topLevel": false,
