@@ -10112,8 +10112,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.06323396567299006,
-      "y": 0.35609756097560974,
+      "x": 0.06955736224028906,
+      "y": 0.36585365853658536,
       "uniqueID": 1749241083253,
       "name": "Base",
       "topLevel": false,
@@ -20043,7 +20043,8 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 4
+                  "ioValue": 4,
+                  "currentEquation": "4"
                 }
               ]
             },
@@ -21399,7 +21400,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 5
+                  "ioValue": 4
                 }
               ]
             },
@@ -21500,7 +21501,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 5
+                  "ioValue": 4
                 }
               ]
             },
@@ -21544,11 +21545,12 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": -12
+                  "ioValue": -12,
+                  "currentEquation": "-12"
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0
+                  "ioValue": -18
                 }
               ]
             },
@@ -21573,7 +21575,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0
+                  "ioValue": -18
                 }
               ]
             },
