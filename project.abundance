@@ -22013,7 +22013,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 4
+                  "ioValue": 8
                 }
               ]
             },
@@ -22037,7 +22037,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0
+                  "ioValue": -4
                 }
               ]
             },
@@ -22061,7 +22061,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": -18
+                  "ioValue": -20
                 }
               ]
             },
@@ -22081,11 +22081,12 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 16
+                  "ioValue": 16,
+                  "currentEquation": "16"
                 },
                 {
                   "name": "zDist",
-                  "ioValue": -18
+                  "ioValue": -20
                 }
               ]
             },
@@ -22233,7 +22234,7 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 69
+                  "ioValue": 60
                 },
                 {
                   "name": "y length",
