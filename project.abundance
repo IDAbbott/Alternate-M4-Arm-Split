@@ -21884,8 +21884,8 @@
             },
             {
               "atomType": "Difference",
-              "x": 0.7046070460704607,
-              "y": 0.45365853658536587,
+              "x": 0.7080479452054795,
+              "y": 0.43544857768052514,
               "uniqueID": "id-59901",
               "ioValues": [
                 {
@@ -23025,11 +23025,11 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 7.5
+                  "ioValue": 10
                 },
                 {
                   "name": "y length",
-                  "ioValue": 25.5
+                  "ioValue": 26
                 }
               ]
             },
@@ -23065,11 +23065,12 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 22.5
+                  "ioValue": 35
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0
+                  "ioValue": 0,
+                  "currentEquation": "0"
                 }
               ]
             },
@@ -23085,11 +23086,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 0
+                  "ioValue": -86
                 },
                 {
                   "name": "yDist",
-                  "ioValue": -22.5
+                  "ioValue": -35
                 },
                 {
                   "name": "zDist",
