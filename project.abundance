@@ -21730,12 +21730,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -94
+                  "ioValue": -92
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -21745,8 +21744,8 @@
             },
             {
               "atomType": "Difference",
-              "x": 0.7148972602739726,
-              "y": 0.43982494529540483,
+              "x": 0.7208904109589042,
+              "y": 0.44857768052516406,
               "uniqueID": "id-59901",
               "ioValues": [
                 {
@@ -21891,8 +21890,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -21920,7 +21918,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": -20
+                  "ioValue": -16
                 }
               ]
             },
@@ -21944,7 +21942,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": -20
+                  "ioValue": -16
                 }
               ]
             },
@@ -22000,7 +21998,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 4
+                  "ioValue": 8
                 }
               ]
             },
@@ -22056,7 +22054,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0
+                  "ioValue": 4
                 }
               ]
             },
@@ -22080,7 +22078,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0
+                  "ioValue": 4
                 }
               ]
             },
@@ -22210,8 +22208,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.025684931506849317,
-              "y": 0.5470459518599562,
+              "x": 0.18493150684931506,
+              "y": 0.5557986870897156,
               "uniqueID": "id-59908",
               "name": "SideMount",
               "topLevel": false,
@@ -22248,7 +22246,7 @@
                     },
                     {
                       "name": "zDist",
-                      "ioValue": 4
+                      "ioValue": 7
                     }
                   ]
                 },
@@ -22278,8 +22276,8 @@
                 },
                 {
                   "atomType": "Move",
-                  "x": 0.6973803071364048,
-                  "y": 0.4609756097560976,
+                  "x": 0.6883561643835616,
+                  "y": 0.4420131291028447,
                   "uniqueID": "id-59912",
                   "ioValues": [
                     {
@@ -22296,7 +22294,7 @@
                     },
                     {
                       "name": "zDist",
-                      "ioValue": 4
+                      "ioValue": 7
                     }
                   ]
                 },
