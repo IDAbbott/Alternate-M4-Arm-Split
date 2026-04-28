@@ -20174,7 +20174,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": -68.9
             },
             {
               "name": "yDist",
@@ -20809,7 +20809,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 85.4,
+                  "ioValue": 76.4,
                   "currentEquation": "74.4"
                 },
                 {
@@ -20834,7 +20834,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 85.4
+                  "ioValue": 76.4
                 },
                 {
                   "name": "yDist",
@@ -20858,7 +20858,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 87.4
+                  "ioValue": 96.4
                 },
                 {
                   "name": "yDist",
@@ -20882,7 +20882,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 87.4
+                  "ioValue": 96.4
                 },
                 {
                   "name": "yDist",
@@ -21501,8 +21501,7 @@
                 },
                 {
                   "name": "y",
-                  "ioValue": 1,
-                  "currentEquation": "1"
+                  "ioValue": 10
                 }
               ],
               "currentEquation": "x - y"
@@ -21528,7 +21527,7 @@
                 },
                 {
                   "name": "y",
-                  "ioValue": 1
+                  "ioValue": 10
                 }
               ],
               "currentEquation": "x + y"
