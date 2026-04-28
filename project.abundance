@@ -20809,8 +20809,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 76.4,
-                  "currentEquation": "74.4"
+                  "ioValue": 76.4
                 },
                 {
                   "name": "yDist",
@@ -21085,6 +21084,50 @@
                   "ioValue": 0
                 }
               ]
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.2208904109589041,
+              "y": 0.5951859956236324,
+              "uniqueID": "id-125446",
+              "name": "x - y",
+              "ioValues": [
+                {
+                  "name": "x",
+                  "ioValue": 86.4
+                },
+                {
+                  "name": "y",
+                  "ioValue": 10
+                }
+              ],
+              "currentEquation": "x - y"
+            },
+            {
+              "atomType": "Constant",
+              "x": 0.08047945205479452,
+              "y": 0.5645514223194749,
+              "uniqueID": "id-125450",
+              "name": "Motor Hole X",
+              "value": 86.4
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.22431506849315067,
+              "y": 0.7221006564551423,
+              "uniqueID": "id-125452",
+              "name": "x + y",
+              "ioValues": [
+                {
+                  "name": "x",
+                  "ioValue": 86.4
+                },
+                {
+                  "name": "y",
+                  "ioValue": 10
+                }
+              ],
+              "currentEquation": "x + y"
             },
             {
               "atomType": "GitHubMolecule",
@@ -21487,50 +21530,6 @@
               },
               "unitsKey": "MM",
               "fileTypeVersion": 1
-            },
-            {
-              "atomType": "Equation",
-              "x": 0.2208904109589041,
-              "y": 0.5951859956236324,
-              "uniqueID": "id-125446",
-              "name": "x - y",
-              "ioValues": [
-                {
-                  "name": "x",
-                  "ioValue": 86.4
-                },
-                {
-                  "name": "y",
-                  "ioValue": 10
-                }
-              ],
-              "currentEquation": "x - y"
-            },
-            {
-              "atomType": "Constant",
-              "x": 0.08047945205479452,
-              "y": 0.5645514223194749,
-              "uniqueID": "id-125450",
-              "name": "Motor Hole X",
-              "value": 86.4
-            },
-            {
-              "atomType": "Equation",
-              "x": 0.22431506849315067,
-              "y": 0.7221006564551423,
-              "uniqueID": "id-125452",
-              "name": "x + y",
-              "ioValues": [
-                {
-                  "name": "x",
-                  "ioValue": 86.4
-                },
-                {
-                  "name": "y",
-                  "ioValue": 10
-                }
-              ],
-              "currentEquation": "x + y"
             }
           ],
           "allConnectors": [
@@ -21625,11 +21624,6 @@
               "ap2ID": "id-59800"
             },
             {
-              "ap2Name": "geometry",
-              "ap1ID": "id-59812",
-              "ap2ID": "id-59811"
-            },
-            {
               "ap2Name": "xDist",
               "ap1ID": "id-125446",
               "ap2ID": "id-59792"
@@ -21663,6 +21657,11 @@
               "ap2Name": "xDist",
               "ap1ID": "id-125452",
               "ap2ID": "id-59794"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-59812",
+              "ap2ID": "id-59811"
             }
           ],
           "fileTypeVersion": 1
@@ -21861,8 +21860,8 @@
             },
             {
               "atomType": "Extrude",
-              "x": 0.3056506849315069,
-              "y": 0.22319474835886213,
+              "x": 0.2756849315068493,
+              "y": 0.22100656455142234,
               "uniqueID": "id-75167",
               "ioValues": [
                 {
@@ -21877,8 +21876,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.43150684931506844,
-              "y": 0.22319474835886213,
+              "x": 0.3844178082191781,
+              "y": 0.212253829321663,
               "uniqueID": "id-75171",
               "ioValues": [
                 {
@@ -23123,6 +23122,11 @@
               "ap2ID": "id-114758"
             },
             {
+              "ap2Name": "geometry1",
+              "ap1ID": "id-75153",
+              "ap2ID": "id-59901"
+            },
+            {
               "ap2Name": "geometry2",
               "ap1ID": "id-75158",
               "ap2ID": "id-59901"
@@ -23221,11 +23225,6 @@
               "ap2Name": "geometry",
               "ap1ID": "id-114746",
               "ap2ID": "id-114745"
-            },
-            {
-              "ap2Name": "geometry1",
-              "ap1ID": "id-114758",
-              "ap2ID": "id-59901"
             },
             {
               "ap2Name": "Shape 2",
