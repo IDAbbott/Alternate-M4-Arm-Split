@@ -19028,8 +19028,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.3347602739726028,
-          "y": 0.5579868708971554,
+          "x": 0.3330479452054795,
+          "y": 0.5514223194748359,
           "uniqueID": "id-54891",
           "name": "Connector",
           "topLevel": false,
@@ -19340,8 +19340,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.3098464317976513,
-              "y": 0.8951219512195121,
+              "x": 0.3082191780821918,
+              "y": 0.886214442013129,
               "uniqueID": "id-55001",
               "name": "SideMount",
               "topLevel": false,
@@ -19360,8 +19360,8 @@
                 },
                 {
                   "atomType": "Move",
-                  "x": 0.7208904109589042,
-                  "y": 0.15536105032822758,
+                  "x": 0.7294520547945206,
+                  "y": 0.1838074398249453,
                   "uniqueID": "id-55061",
                   "ioValues": [
                     {
@@ -19374,11 +19374,12 @@
                     },
                     {
                       "name": "yDist",
-                      "ioValue": -40
+                      "ioValue": -40,
+                      "currentEquation": "-40"
                     },
                     {
                       "name": "zDist",
-                      "ioValue": 4
+                      "ioValue": 10
                     }
                   ]
                 },
@@ -19422,11 +19423,12 @@
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 40
+                      "ioValue": 40,
+                      "currentEquation": "40"
                     },
                     {
                       "name": "zDist",
-                      "ioValue": 4
+                      "ioValue": 10
                     }
                   ]
                 },
