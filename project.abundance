@@ -20169,8 +20169,8 @@
             },
             {
               "atomType": "RegularPolygon",
-              "x": 0.24910083493898522,
-              "y": 0.41203904555314536,
+              "x": 0.13184931506849315,
+              "y": 0.39168490153172864,
               "uniqueID": "id-59783",
               "ioValues": [
                 {
@@ -20243,7 +20243,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0
+                  "ioValue": -0.1
                 }
               ]
             },
@@ -20258,13 +20258,26 @@
                   "ioValue": null
                 }
               ]
+            },
+            {
+              "atomType": "Color",
+              "x": 0.2705479452054794,
+              "y": 0.36542669584245074,
+              "uniqueID": "id-96133",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "selectedColor": "Default"
             }
           ],
           "allConnectors": [
             {
               "ap2Name": "geometry",
               "ap1ID": "id-59783",
-              "ap2ID": "id-59784"
+              "ap2ID": "id-96133"
             },
             {
               "ap2Name": "geometry",
@@ -20285,6 +20298,11 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-59787",
               "ap2ID": "id-59782"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-96133",
+              "ap2ID": "id-59784"
             }
           ],
           "fileTypeVersion": 1
