@@ -21886,7 +21886,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -90
+                  "ioValue": -80
                 },
                 {
                   "name": "yDist",
@@ -22238,11 +22238,12 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": -30
+                      "ioValue": -35
                     },
                     {
                       "name": "yDist",
-                      "ioValue": -40
+                      "ioValue": -40,
+                      "currentEquation": "-40"
                     },
                     {
                       "name": "zDist",
@@ -22286,7 +22287,7 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": -30
+                      "ioValue": -35
                     },
                     {
                       "name": "yDist",
@@ -22334,7 +22335,7 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": -30
+                      "ioValue": -35
                     },
                     {
                       "name": "yDist",
@@ -22358,7 +22359,7 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": -30
+                      "ioValue": -35
                     },
                     {
                       "name": "yDist",
@@ -22595,6 +22596,13 @@
                     }
                   ],
                   "unionType": "Fusion"
+                },
+                {
+                  "atomType": "Constant",
+                  "x": 0.5111301369863014,
+                  "y": 0.15973741794310722,
+                  "uniqueID": "id-130786",
+                  "value": -35
                 }
               ],
               "allConnectors": [
@@ -22677,6 +22685,26 @@
                   "ap2Name": "geometry",
                   "ap1ID": "id-59922",
                   "ap2ID": "id-59911"
+                },
+                {
+                  "ap2Name": "xDist",
+                  "ap1ID": "id-130786",
+                  "ap2ID": "id-59910"
+                },
+                {
+                  "ap2Name": "xDist",
+                  "ap1ID": "id-130786",
+                  "ap2ID": "id-59912"
+                },
+                {
+                  "ap2Name": "xDist",
+                  "ap1ID": "id-130786",
+                  "ap2ID": "id-59914"
+                },
+                {
+                  "ap2Name": "xDist",
+                  "ap1ID": "id-130786",
+                  "ap2ID": "id-59915"
                 }
               ],
               "fileTypeVersion": 1
