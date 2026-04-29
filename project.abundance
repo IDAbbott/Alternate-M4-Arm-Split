@@ -15055,8 +15055,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.35873287671232873,
-          "y": 0.9584245076586433,
+          "x": 0.3176369863013699,
+          "y": 0.9431072210065645,
           "uniqueID": "id-80370",
           "name": "SideMount",
           "topLevel": false,
@@ -19575,34 +19575,6 @@
             }
           ],
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Difference",
-          "x": 0.8219178082191781,
-          "y": 0.7789934354485776,
-          "uniqueID": "id-167341",
-          "ioValues": [
-            {
-              "name": "geometry1",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "geometry2",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Assembly",
-          "x": 0.6053082191780822,
-          "y": 0.8358862144420132,
-          "uniqueID": "id-167345",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            }
-          ]
         }
       ],
       "allConnectors": [
@@ -19625,11 +19597,6 @@
           "ap2Name": "geometry2",
           "ap1ID": "f9a11159-9bd9-448b-b687-28eec69b2c9c",
           "ap2ID": "208f9c73-98a9-4c24-994f-0b7e2ac907e0"
-        },
-        {
-          "ap2Name": "geometry2",
-          "ap1ID": "f9a11159-9bd9-448b-b687-28eec69b2c9c",
-          "ap2ID": "id-167341"
         },
         {
           "ap2Name": "geometry1",
@@ -19660,11 +19627,6 @@
           "ap2Name": "Shape 1",
           "ap1ID": 1749546144185,
           "ap2ID": "238fac3f-68d0-40c9-bf63-d4bfbee6bf93"
-        },
-        {
-          "ap2Name": "Shape 1",
-          "ap1ID": 1749546144185,
-          "ap2ID": "id-167345"
         },
         {
           "ap2Name": "Shape 8",
@@ -19705,8 +19667,7 @@
           "ap2Name": "Shape 3",
           "ap1ID": "43c45c0b-b826-46fa-a056-b7fda982ccad",
           "ap2ID": "f9a11159-9bd9-448b-b687-28eec69b2c9c"
-        },
-        null
+        }
       ],
       "fileTypeVersion": 1
     },
