@@ -7765,7 +7765,7 @@
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": "rotate-move-cut-cut-extrude-move-circle-7.1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-loft-move-circle-7.1-0-0-0-move-circle-4.1-0-0-0-{\"origin\":[0,0,2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,6],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-move-circle-4.1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-71.3-0-0-0-0-180",
+                    "geometry": "rotate-move-cut-cut-extrude-move-circle-7.15-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-loft-move-circle-7.15-0-0-0-move-circle-4.1-0-0-0-{\"origin\":[0,0,2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,6],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-move-circle-4.1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-70.9-0-0-0-0-180",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -7789,7 +7789,7 @@
                     "bom": []
                   },
                   {
-                    "geometry": "rotate-move-cut-loft-move-circle-7.1-0-0-0-move-circle-4.1-0-0-0-{\"origin\":[0,0,2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,6],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-move-circle-4.1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-71.3-0-0-0-0-180",
+                    "geometry": "rotate-move-cut-loft-move-circle-7.15-0-0-0-move-circle-4.1-0-0-0-{\"origin\":[0,0,2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,6],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-move-circle-4.1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-70.9-0-0-0-0-180",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -7813,7 +7813,7 @@
                     "bom": []
                   },
                   {
-                    "geometry": "rotate-move-extrude-move-circle-4.1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-71.3-0-0-0-0-180",
+                    "geometry": "rotate-move-extrude-move-circle-4.1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-70.9-0-0-0-0-180",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -8640,8 +8640,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.07046070460704608,
-          "y": 0.6195121951219512,
+          "x": 0.0702054794520548,
+          "y": 0.6214442013129103,
           "uniqueID": "96305451-7ef1-4926-b35e-78892b61e2fd",
           "name": "MotorHoles",
           "topLevel": false,
@@ -8666,7 +8666,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 14.2
+                  "ioValue": 14.3
                 }
               ]
             },
@@ -8698,7 +8698,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 71.3
+                  "ioValue": 70.9
                 },
                 {
                   "name": "yDist",
@@ -8815,7 +8815,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-circle-7.1-0-0-0",
+                    "geometry": "move-circle-7.15-0-0-0",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
