@@ -278,8 +278,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.6296296296296297,
-      "y": 0.148471615720524,
+      "x": 0.5881849315068494,
+      "y": 0.13347921225382933,
       "uniqueID": "id-39369",
       "ioValues": [
         {
@@ -7765,7 +7765,7 @@
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": "rotate-move-cut-cut-extrude-move-circle-7.1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-loft-move-circle-7.1-0-0-0-move-circle-4.1-0-0-0-{\"origin\":[0,0,4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,8],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-move-circle-4.1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-71.3-0-0-0-0-180",
+                    "geometry": "rotate-move-cut-cut-extrude-move-circle-7.1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-loft-move-circle-7.1-0-0-0-move-circle-4.1-0-0-0-{\"origin\":[0,0,2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,6],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-move-circle-4.1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-71.3-0-0-0-0-180",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -7789,7 +7789,7 @@
                     "bom": []
                   },
                   {
-                    "geometry": "rotate-move-cut-loft-move-circle-7.1-0-0-0-move-circle-4.1-0-0-0-{\"origin\":[0,0,4],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,8],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-move-circle-4.1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-71.3-0-0-0-0-180",
+                    "geometry": "rotate-move-cut-loft-move-circle-7.1-0-0-0-move-circle-4.1-0-0-0-{\"origin\":[0,0,2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,6],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-extrude-move-circle-4.1-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15-71.3-0-0-0-0-180",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -8742,7 +8742,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 4
+                  "ioValue": 2
                 }
               ]
             },
@@ -8796,8 +8796,8 @@
             },
             {
               "atomType": "Loft",
-              "x": 0.3203125,
-              "y": 0.49024390243902444,
+              "x": 0.31506849315068497,
+              "y": 0.4901531728665207,
               "uniqueID": "id-43706",
               "ioValues": [
                 {
@@ -8822,7 +8822,7 @@
                       "origin": [
                         0,
                         0,
-                        4
+                        2
                       ],
                       "xDir": [
                         1,
