@@ -1826,6 +1826,12 @@
           "y": 0.5734597156398105,
           "uniqueID": "88ba4c0e-fcc3-435d-91dd-ab5a0a5aa283",
           "name": "m4GuidePosts",
+          "ioValues": [
+            {
+              "name": "WallHeight",
+              "ioValue": 3
+            }
+          ],
           "topLevel": false,
           "allAtoms": [
             {
@@ -2465,7 +2471,7 @@
             {
               "atomType": "Input",
               "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "y": 0.15384615384615385,
               "uniqueID": "ad6d398b-4ec7-425f-80d8-944b24bd447d",
               "name": "WallHeight"
             }
@@ -2595,12 +2601,6 @@
               "ap2Name": "geometry",
               "ap1ID": "c081b1f3-8717-4e58-a225-1872547ae891",
               "ap2ID": "9d2ac2c9-354b-4498-b0ba-d579c8526297"
-            }
-          ],
-          "ioValues": [
-            {
-              "name": "WallHeight",
-              "ioValue": 3
             }
           ],
           "fileTypeVersion": 1
@@ -11132,8 +11132,8 @@
             },
             {
               "atomType": "Extrude",
-              "x": 0.1973018549747049,
-              "y": 0.48341232227488146,
+              "x": 0.2005012531328321,
+              "y": 0.4923413566739606,
               "uniqueID": "8440c0ad-b156-418b-9dcb-837262d125f3",
               "ioValues": [
                 {
@@ -16492,8 +16492,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.05736301369863014,
-          "y": 0.5609756097560976,
+          "x": 0.060985797827903095,
+          "y": 0.5754923413566739,
           "uniqueID": 1749532065692,
           "name": "GuideHoles",
           "topLevel": false,
@@ -17535,8 +17535,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.0761986301369863,
-          "y": 0.6345733041575493,
+          "x": 0.07435254803675857,
+          "y": 0.6586433260393872,
           "uniqueID": "43c45c0b-b826-46fa-a056-b7fda982ccad",
           "name": "PostHoles",
           "topLevel": false,
