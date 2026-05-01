@@ -10847,7 +10847,7 @@
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": "move-rotate-extrude-polysides-25-8-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0-0-25-100-0-0",
+                    "geometry": "move-rotate-extrude-polysides-25-8-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-0-0-25-100-0-0",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -10898,7 +10898,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-extrude-polysides-35-25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-68-0-0",
+                "geometry": "move-extrude-polysides-35-25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-68-0-0",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -11321,7 +11321,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 5
+                  "ioValue": 4
                 }
               ]
             },
@@ -11375,8 +11375,8 @@
             },
             {
               "atomType": "Assembly",
-              "x": 0.7347463070006423,
-              "y": 0.3557483731019523,
+              "x": 0.7368421052631579,
+              "y": 0.36323851203501095,
               "uniqueID": 1749544134993,
               "ioValues": [
                 {
@@ -11487,7 +11487,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 5
+                  "ioValue": 4
                 }
               ]
             },
