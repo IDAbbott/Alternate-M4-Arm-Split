@@ -2607,8 +2607,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.105125977410947,
-          "y": 0.8507109004739336,
+          "x": 0.11445279866332497,
+          "y": 0.8402625820568927,
           "uniqueID": "id-6905",
           "name": "CentreCapTrim",
           "topLevel": false,
@@ -3193,14 +3193,14 @@
                 {
                   "name": "Shape 13",
                   "ioValue": {
-                    "geometry": "extrude-move-circle-4.15-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15",
+                    "geometry": "extrude-move-circle-7.05-0-0-0-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-15",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
                       "origin": [
                         0,
                         0,
-                        0
+                        1.5
                       ],
                       "xDir": [
                         1,
@@ -3300,14 +3300,14 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 8.3
+                  "ioValue": 14.1
                 }
               ]
             },
             {
               "atomType": "Extrude",
-              "x": 0.7382378100940975,
-              "y": 0.8975609756097561,
+              "x": 0.5530492898913951,
+              "y": 0.9146608315098468,
               "uniqueID": "91b8b15d-f2e2-4620-ab5c-e728cccff359",
               "ioValues": [
                 {
@@ -3322,8 +3322,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.3191311612364244,
-              "y": 0.9409190371991247,
+              "x": 0.31578947368421056,
+              "y": 0.9212253829321663,
               "uniqueID": "a87525bb-b7b9-46f5-b47d-d7e2e197e973",
               "ioValues": [
                 {
@@ -3340,7 +3340,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0
+                  "ioValue": 1.5
                 }
               ]
             },
