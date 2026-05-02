@@ -3216,6 +3216,33 @@
                     "color": "#aad7f2",
                     "bom": []
                   }
+                },
+                {
+                  "name": "Shape 14",
+                  "ioValue": {
+                    "geometry": "extrude-circle-2.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
                 }
               ],
               "unionType": "Fusion"
@@ -3294,8 +3321,8 @@
             },
             {
               "atomType": "Circle",
-              "x": 0.11361737677527152,
-              "y": 0.8774617067833699,
+              "x": 0.12113617376775272,
+              "y": 0.7461706783369804,
               "uniqueID": "621aeb28-4ee5-4722-9b83-076573d32ea6",
               "ioValues": [
                 {
@@ -3306,8 +3333,8 @@
             },
             {
               "atomType": "Extrude",
-              "x": 0.5530492898913951,
-              "y": 0.9146608315098468,
+              "x": 0.5430242272347535,
+              "y": 0.7724288840262582,
               "uniqueID": "91b8b15d-f2e2-4620-ab5c-e728cccff359",
               "ioValues": [
                 {
@@ -3322,8 +3349,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.31578947368421056,
-              "y": 0.9212253829321663,
+              "x": 0.32247284878863824,
+              "y": 0.7789934354485776,
               "uniqueID": "a87525bb-b7b9-46f5-b47d-d7e2e197e973",
               "ioValues": [
                 {
@@ -3346,8 +3373,8 @@
             },
             {
               "atomType": "Rotate",
-              "x": 0.25396825396825395,
-              "y": 0.5776805251641138,
+              "x": 0.264828738512949,
+              "y": 0.5098468271334792,
               "uniqueID": "id-52737",
               "ioValues": [
                 {
@@ -3370,8 +3397,8 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.11633875106929,
-              "y": 0.6609756097560976,
+              "x": 0.10860484544695072,
+              "y": 0.4945295404814004,
               "uniqueID": "id-52696",
               "name": "ScrewBlank",
               "ioValues": [
@@ -3770,6 +3797,34 @@
               },
               "unitsKey": "MM",
               "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.1261487050960735,
+              "y": 0.9431072210065645,
+              "uniqueID": "id-172654",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 5
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.5179615705931495,
+              "y": 0.8927789934354485,
+              "uniqueID": "id-172657",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 4
+                }
+              ]
             }
           ],
           "allConnectors": [
@@ -3842,6 +3897,16 @@
               "ap2Name": "geometry",
               "ap1ID": "id-52696",
               "ap2ID": "id-52737"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-172654",
+              "ap2ID": "id-172657"
+            },
+            {
+              "ap2Name": "Shape 14",
+              "ap1ID": "id-172657",
+              "ap2ID": "11c104f1-c984-4ea7-ab9b-941160ae3314"
             }
           ],
           "fileTypeVersion": 1
