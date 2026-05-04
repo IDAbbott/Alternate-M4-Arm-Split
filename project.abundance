@@ -1119,7 +1119,7 @@
             {
               "name": "Shape 6",
               "ioValue": {
-                "geometry": "fuse-extrude-cut-circle-68-move-circle-67-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-move-extrude-circle-13-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-0-0-0-move-extrude-circle-68-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-0",
+                "geometry": "fuse-extrude-cut-circle-66-circle-44-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9-fuse-extrude-cut-circle-68-move-circle-66-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-move-extrude-circle-13-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-0-0-0-move-extrude-circle-68-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-0",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -1207,8 +1207,8 @@
           "allAtoms": [
             {
               "atomType": "Output",
-              "x": 0.98,
-              "y": 0.5,
+              "x": 0.9750000000000001,
+              "y": 0.4967177242888403,
               "uniqueID": 1749504411079,
               "ioValues": [
                 {
@@ -1384,7 +1384,7 @@
                 {
                   "name": "Shape 4",
                   "ioValue": {
-                    "geometry": "extrude-cut-circle-68-move-circle-67-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4",
+                    "geometry": "extrude-cut-circle-68-move-circle-66-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -1411,7 +1411,7 @@
                 {
                   "name": "Shape 5",
                   "ioValue": {
-                    "geometry": "extrude-cut-circle-66-circle-44-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5.5",
+                    "geometry": "extrude-cut-circle-66-circle-44-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-9",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -1446,7 +1446,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 134
+                  "ioValue": 132
                 }
               ]
             },
@@ -1484,8 +1484,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.17961504811898515,
-              "y": 0.36462882096069865,
+              "x": 0.17954545454545454,
+              "y": 0.36323851203501095,
               "uniqueID": "id-159764",
               "ioValues": [
                 {
@@ -1558,7 +1558,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 5.5
+                  "ioValue": 9
                 }
               ]
             }
