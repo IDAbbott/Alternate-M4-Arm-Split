@@ -1183,8 +1183,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.3770634231103388,
-          "y": 0.6753554502369669,
+          "x": 0.3909090909090909,
+          "y": 0.8555798687089715,
           "uniqueID": "id-6919",
           "ioValues": [
             {
@@ -1199,8 +1199,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.13480176211453743,
-          "y": 0.15502183406113537,
+          "x": 0.11022727272727273,
+          "y": 0.40262582056892776,
           "uniqueID": "cc2c3461-67fc-4155-b44a-37fb765818d9",
           "name": "BottomDisk",
           "topLevel": false,
@@ -1407,6 +1407,33 @@
                     "color": "#aad7f2",
                     "bom": []
                   }
+                },
+                {
+                  "name": "Shape 5",
+                  "ioValue": {
+                    "geometry": "extrude-cut-circle-66-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
                 }
               ],
               "unionType": "Fusion"
@@ -1478,6 +1505,62 @@
                   "ioValue": 0
                 }
               ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.11136363636363637,
+              "y": 0.6542669584245077,
+              "uniqueID": "id-177662",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 132
+                }
+              ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.11590909090909092,
+              "y": 0.7811816192560176,
+              "uniqueID": "id-177665",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 10
+                }
+              ]
+            },
+            {
+              "atomType": "Difference",
+              "x": 0.23068181818181818,
+              "y": 0.700218818380744,
+              "uniqueID": "id-177668",
+              "ioValues": [
+                {
+                  "name": "retain",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "remove",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.375,
+              "y": 0.6586433260393872,
+              "uniqueID": "id-177672",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 10
+                }
+              ]
             }
           ],
           "allConnectors": [
@@ -1540,14 +1623,34 @@
               "ap2Name": "remove",
               "ap1ID": "id-159764",
               "ap2ID": "id-19245"
+            },
+            {
+              "ap2Name": "retain",
+              "ap1ID": "id-177662",
+              "ap2ID": "id-177668"
+            },
+            {
+              "ap2Name": "remove",
+              "ap1ID": "id-177665",
+              "ap2ID": "id-177668"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-177668",
+              "ap2ID": "id-177672"
+            },
+            {
+              "ap2Name": "Shape 5",
+              "ap1ID": "id-177672",
+              "ap2ID": "4b35fcea-b0e2-4e93-8618-d18c64103895"
             }
           ],
           "fileTypeVersion": 1
         },
         {
           "atomType": "Molecule",
-          "x": 0.14109347442680775,
-          "y": 0.2663755458515284,
+          "x": 0.10568181818181818,
+          "y": 0.15536105032822758,
           "uniqueID": "99d1c152-1499-4167-83ad-112c16fbb362",
           "name": "M4Hex",
           "topLevel": false,
@@ -1726,8 +1829,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.13237774030354132,
-          "y": 0.4218009478672986,
+          "x": 0.11249999999999999,
+          "y": 0.27571115973741794,
           "uniqueID": "e33b871f-fa3c-4703-b738-587dc91c0825",
           "name": "M4Link",
           "topLevel": false,
@@ -1822,8 +1925,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.127318718381113,
-          "y": 0.5734597156398105,
+          "x": 0.09886363636363636,
+          "y": 0.5207877461706784,
           "uniqueID": "88ba4c0e-fcc3-435d-91dd-ab5a0a5aa283",
           "name": "m4GuidePosts",
           "ioValues": [
@@ -2607,8 +2710,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.11445279866332497,
-          "y": 0.8402625820568927,
+          "x": 0.10340909090909091,
+          "y": 0.9190371991247266,
           "uniqueID": "id-6905",
           "name": "CentreCapTrim",
           "topLevel": false,
@@ -3010,8 +3113,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.13032581453634084,
-          "y": 0.6980306345733042,
+          "x": 0.09659090909090909,
+          "y": 0.7921225382932165,
           "uniqueID": "1c8eb2bb-2fca-471e-bd0e-4f32131dadef",
           "name": "PostHoles",
           "topLevel": false,
