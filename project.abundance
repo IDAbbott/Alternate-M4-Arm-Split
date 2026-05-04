@@ -1323,8 +1323,8 @@
             },
             {
               "atomType": "Fusion",
-              "x": 0.5467687074829932,
-              "y": 0.420824295010846,
+              "x": 0.5420454545454546,
+              "y": 0.4113785557986871,
               "uniqueID": "4b35fcea-b0e2-4e93-8618-d18c64103895",
               "ioValues": [
                 {
@@ -1411,7 +1411,7 @@
                 {
                   "name": "Shape 5",
                   "ioValue": {
-                    "geometry": "extrude-cut-circle-66-circle-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10",
+                    "geometry": "extrude-cut-circle-66-circle-44-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5.5",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -1520,13 +1520,13 @@
             },
             {
               "atomType": "Circle",
-              "x": 0.11590909090909092,
-              "y": 0.7811816192560176,
+              "x": 0.11136363636363637,
+              "y": 0.7571115973741794,
               "uniqueID": "id-177665",
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 10
+                  "ioValue": 88
                 }
               ]
             },
@@ -1558,7 +1558,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 10
+                  "ioValue": 5.5
                 }
               ]
             }
