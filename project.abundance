@@ -1119,7 +1119,7 @@
             {
               "name": "Shape 6",
               "ioValue": {
-                "geometry": "fuse-extrude-cut-circle-66-circle-44-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-fuse-extrude-cut-circle-68-move-circle-66-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-move-extrude-circle-13-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-0-0-0-move-extrude-circle-68-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-0",
+                "geometry": "fuse-extrude-cut-circle-66-circle-44-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-fuse-extrude-cut-circle-68-move-circle-66-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-4-fuse-move-extrude-circle-13-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-0-0-0-move-extrude-circle-68-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2-0-0-0",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -1199,8 +1199,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.11022727272727273,
-          "y": 0.40262582056892776,
+          "x": 0.10996563573883161,
+          "y": 0.4008438818565401,
           "uniqueID": "cc2c3461-67fc-4155-b44a-37fb765818d9",
           "name": "BottomDisk",
           "topLevel": false,
@@ -1411,7 +1411,7 @@
                 {
                   "name": "Shape 5",
                   "ioValue": {
-                    "geometry": "extrude-cut-circle-66-circle-44-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8",
+                    "geometry": "extrude-cut-circle-66-circle-44-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -1520,8 +1520,8 @@
             },
             {
               "atomType": "Circle",
-              "x": 0.07452471482889733,
-              "y": 0.899343544857768,
+              "x": 0.07302405498281787,
+              "y": 0.8966244725738397,
               "uniqueID": "id-177665",
               "ioValues": [
                 {
@@ -1558,7 +1558,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 8
+                  "ioValue": 7
                 }
               ]
             }
