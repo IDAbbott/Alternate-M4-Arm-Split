@@ -10194,7 +10194,7 @@
                     "bom": []
                   },
                   {
-                    "geometry": "move-extrude-rectangle-8-40-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--82-0-18",
+                    "geometry": "move-extrude-rectangle-20-60-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--82-0-12",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -13653,8 +13653,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.1292808219178082,
-          "y": 0.8446389496717724,
+          "x": 0.12199312714776632,
+          "y": 0.8333333333333334,
           "uniqueID": "id-21373",
           "name": "BaseCutout",
           "topLevel": false,
@@ -13859,11 +13859,11 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 8
+                  "ioValue": 20
                 },
                 {
                   "name": "y length",
-                  "ioValue": 40
+                  "ioValue": 60
                 }
               ]
             },
@@ -13885,8 +13885,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.3142123287671233,
-              "y": 0.8665207877461707,
+              "x": 0.3058419243986254,
+              "y": 0.869198312236287,
               "uniqueID": "id-149300",
               "ioValues": [
                 {
@@ -13903,7 +13903,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 18
+                  "ioValue": 12
                 }
               ]
             }
