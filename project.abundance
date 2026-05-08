@@ -19719,8 +19719,8 @@
             },
             {
               "atomType": "Difference",
-              "x": 0.7157534246575342,
-              "y": 0.43982494529540483,
+              "x": 0.7145505097312327,
+              "y": 0.4267352185089975,
               "uniqueID": "id-59901",
               "ioValues": [
                 {
@@ -20254,7 +20254,7 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": -150
+                      "ioValue": -148
                     },
                     {
                       "name": "yDist",
@@ -20302,7 +20302,7 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": -150
+                      "ioValue": -148
                     },
                     {
                       "name": "yDist",
@@ -20358,7 +20358,7 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": -150
+                      "ioValue": -148
                     },
                     {
                       "name": "yDist",
@@ -20382,7 +20382,7 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": -150
+                      "ioValue": -148
                     },
                     {
                       "name": "yDist",
@@ -20725,7 +20725,7 @@
                   "y": 0.23393316195372751,
                   "uniqueID": "id-185210",
                   "name": "X1",
-                  "value": -150
+                  "value": -148
                 }
               ],
               "allConnectors": [
@@ -21067,7 +21067,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0
+                  "ioValue": 2
                 }
               ]
             },
@@ -21091,7 +21091,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0
+                  "ioValue": 2
                 }
               ]
             },
@@ -21115,14 +21115,14 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0
+                  "ioValue": 2
                 }
               ]
             },
             {
               "atomType": "Move",
-              "x": 0.2748287671232877,
-              "y": 0.7155361050328227,
+              "x": 0.2752548656163114,
+              "y": 0.712082262210797,
               "uniqueID": "id-154442",
               "ioValues": [
                 {
@@ -21135,11 +21135,12 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": -25
+                  "ioValue": -25,
+                  "currentEquation": "-25"
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0
+                  "ioValue": 2
                 }
               ]
             },
