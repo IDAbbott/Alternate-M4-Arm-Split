@@ -21049,8 +21049,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.2748287671232877,
-              "y": 0.23413566739606126,
+              "x": 0.26876737720111216,
+              "y": 0.2210796915167095,
               "uniqueID": "id-154439",
               "ioValues": [
                 {
@@ -21059,7 +21059,8 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -66
+                  "ioValue": -66,
+                  "currentEquation": "-66"
                 },
                 {
                   "name": "yDist",
@@ -21067,7 +21068,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 2
+                  "ioValue": 0
                 }
               ]
             },
@@ -21091,14 +21092,14 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 2
+                  "ioValue": 0
                 }
               ]
             },
             {
               "atomType": "Move",
-              "x": 0.276541095890411,
-              "y": 0.49890590809628005,
+              "x": 0.2798887859128823,
+              "y": 0.5115681233933163,
               "uniqueID": "id-154441",
               "ioValues": [
                 {
@@ -21115,7 +21116,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 2
+                  "ioValue": 0
                 }
               ]
             },
@@ -21140,7 +21141,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 2
+                  "ioValue": 0
                 }
               ]
             },
@@ -21571,6 +21572,46 @@
               "unitsKey": "MM",
               "fileTypeVersion": 1,
               "lastReloadedFromGithubAt": 1777523237978
+            },
+            {
+              "atomType": "Move",
+              "x": 0.5254865616311399,
+              "y": 0.6632390745501285,
+              "uniqueID": "id-185212",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 1
+                }
+              ]
+            },
+            {
+              "atomType": "Assembly",
+              "x": 0.6514365152919369,
+              "y": 0.6503856041131105,
+              "uniqueID": "id-185218",
+              "ioValues": [
+                {
+                  "name": "Shape 1",
+                  "ioValue": null
+                },
+                {
+                  "name": "Shape 2",
+                  "ioValue": null
+                }
+              ]
             }
           ],
           "allConnectors": [
@@ -21595,9 +21636,14 @@
               "ap2ID": "id-154517"
             },
             {
-              "ap2Name": "number or geometry",
+              "ap2Name": "geometry",
               "ap1ID": "id-154517",
-              "ap2ID": "id-154437"
+              "ap2ID": "id-185212"
+            },
+            {
+              "ap2Name": "Shape 1",
+              "ap1ID": "id-154517",
+              "ap2ID": "id-185218"
             },
             {
               "ap2Name": "geometry",
@@ -21618,6 +21664,16 @@
               "ap2Name": "geometry",
               "ap1ID": "id-154476",
               "ap2ID": "id-154442"
+            },
+            {
+              "ap2Name": "Shape 2",
+              "ap1ID": "id-185212",
+              "ap2ID": "id-185218"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-185218",
+              "ap2ID": "id-154437"
             }
           ],
           "fileTypeVersion": 1
